@@ -11,8 +11,6 @@ A web-based tool that helps analyze and infer data types from CSV and Excel file
   - Inferred user-friendly types
   - Missing value counts
   - Unique value counts
-- 🎯 Drag-and-drop file upload
-- 💡 Interactive data preview
 - 🔒 Secure file handling
 
 ## Tech Stack
@@ -48,12 +46,16 @@ cd data-type-inference-tool
 2. Create and activate a virtual environment:
 ```bash
 # Windows
-python -m venv venv
+python -m venv dt
 .\venv\Scripts\activate
 
 # macOS/Linux
-python3 -m venv venv
+python3 -m venv dt
 source venv/bin/activate
+```
+or 
+```bash
+conda create -n dt python=3.9
 ```
 
 3. Install Python dependencies:
